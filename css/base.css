@@ -1,0 +1,60 @@
+/*样式初始化css文件*/
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+input,
+textarea {
+  border: none;
+  outline: none;
+}
+body {
+  background: #f3f5f7;
+}
+img,
+input {
+  vertical-align: middle;
+}
+
+/*页面文字主色调*/
+.col_blue {
+  color: #00a4ff !important;
+}
+
+/*页面版心*/
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/*公共样式*/
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.pr {
+  position: relative;
+}
+/*清除浮动*/
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+.clearfix {
+  *zoom: 1;
+}
